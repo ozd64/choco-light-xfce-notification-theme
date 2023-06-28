@@ -1,7 +1,9 @@
+/* We set some default options here.  This is loaded with a low priority,
+ * the rest will use whatever default colors are in your main gtk theme */
 #XfceNotifyWindow {
     padding:30px;
     border-radius:5px;
-    color: #EEEEEE;
+    color: #FFFFFF;
     background-color:#474545;
     border-left:7px solid #313131;
     border-right:1px solid #33302f;
@@ -14,8 +16,8 @@
     border: 1px solid shade(#686868, 1.15);
     box-shadow: none;
     background-image: none;
-    background-color: #f2ebeb;
-    color: #686868;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #XfceNotifyWindow label#summary {
